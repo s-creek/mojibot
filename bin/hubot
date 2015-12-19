@@ -1,7 +1,5 @@
 #!/bin/sh
-
-export HUBOT_SLACK_TOKEN=xoxb-16031931808-NRUacupYaYAOaDE5dmkkR9dp
-export HUBOT_HEROKU_KEEPALIVE_URL=xoxb-16031931808-NRUacupYaYAOaDE5dmkkR9dp
+. `dirname $0`/config.sh
 
 set -e
 
