@@ -1,5 +1,4 @@
 zoi_list = [ 'https://qiita-image-store.s3.amazonaws.com/0/29945/9e4bd52c-3fc3-a7c2-e8d2-b9911db5b5c8.png',
-	 'https://pbs.twimg.com/media/CT5CwjsUAAAp87c.jpg',
 	 'http://36.media.tumblr.com/0c83e92b656a22d69f117a62e8228ff5/tumblr_nbh5w2nG3J1tlrhf5o1_1280.png',
 	 'http://cdn-ak.f.st-hatena.com/images/fotolife/y/yu_ki-dai/20140906/20140906194857.jpg',
 	 'http://blog.oukasoft.com/wp-content/uploads/a9cd12eb83a391ed37528600a93afc8e.jpg',
@@ -15,6 +14,8 @@ zoi_list = [ 'https://qiita-image-store.s3.amazonaws.com/0/29945/9e4bd52c-3fc3-a
 	 'https://pbs.twimg.com/media/BuR3gjFCYAAdFsw.jpg',
 	 'http://cdn-ak.f.st-hatena.com/images/fotolife/a/aobagannbaruzoi/20150207/20150207151614.jpg',
 	 'https://dignik.s3.amazonaws.com/uploads/image/file/753/Bt6ZRFnCIAMLmuN.jpg']
+
+non_zoi_list = ['https://pbs.twimg.com/media/CT5CwjsUAAAp87c.jpg']
 
 cron = require('cron').CronJob
 
